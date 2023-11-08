@@ -3,7 +3,7 @@ import Logo from '../../olx-logo.png'
 //import { FirebaseContext } from '../../context/FirebaseContext'
 import {auth , db } from '../../firebase/config'
 import {  createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
-import {  addDoc, collection, getDocs } from 'firebase/firestore/lite';
+import {  addDoc, collection, getDocs } from 'firebase/firestore';
 import {useNavigate} from 'react-router-dom'
 
 

@@ -3,7 +3,7 @@ import './Create.css'
 import Header from '../Header/Header';
 import { FirebaseContext,AuthContext } from '../../context/FirebaseContext';
 import { getStorage, ref, uploadBytes , getDownloadURL } from "firebase/storage";
-import {  addDoc, collection, getDocs } from 'firebase/firestore/lite';
+import {  addDoc, collection, getDocs } from 'firebase/firestore';
 import { db } from '../../firebase/config'
 import { useNavigate } from 'react-router-dom';
 
